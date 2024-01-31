@@ -24,16 +24,26 @@ button,
   padding: 8px 0px 8px 16px;
 }
 
+input:focus {
+  border: 1px solid #4e75ff;
+}
+
 button {
   display: inline-flex;
   padding: 8px 16px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background: #cfcfcf;
-  color: #989898;
+  background: #4e75ff;
+  color: #fff;
   font-weight: 500;
   border: none;
+  cursor: pointer;
+}
+button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+  cursor: auto;
 }
 
 .timer {
