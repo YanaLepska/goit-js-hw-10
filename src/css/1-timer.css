@@ -1,6 +1,12 @@
 body {
   padding: 36px 0 0 156px;
 }
+a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
 
 #datetime-picker,
 button,
